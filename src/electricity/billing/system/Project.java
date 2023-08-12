@@ -165,21 +165,46 @@ public class Project extends JFrame implements ActionListener {
         calculator.addActionListener(this);
         utility.add(calculator);
 
-        //Exit
-        JMenu mexit = new JMenu("|   Exit    ");
-        mexit.setFont(new Font("Monospaced", Font.BOLD, 20));
+        //Account
+        JMenu muser = new JMenu(" Account   ");
+        muser.setFont(new Font("Monospaced", Font.BOLD, 20));
 
+        JMenuItem logout = new JMenuItem("Logout    ");
+        logout.setFont(new Font("Monospaced", Font.PLAIN, 20));
+        logout.setBackground(Color.white);
+        ImageIcon icon13 = new ImageIcon(ClassLoader.getSystemResource("icon/user.png"));
+        Image image13 = icon13.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
+        muser.setIcon(new ImageIcon(image13));
+        ImageIcon icon14 = new ImageIcon(ClassLoader.getSystemResource("icon/logout.png"));
+        Image image14 = icon14.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
+        logout.setIcon(new ImageIcon(image14));
+        logout.setMnemonic('q');
+        logout.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK));
+        logout.addActionListener(this);
+        muser.add(logout);
+        
         JMenuItem exit = new JMenuItem("Exit    ");
         exit.setFont(new Font("Monospaced", Font.PLAIN, 20));
         exit.setBackground(Color.white);
-        ImageIcon icon12 = new ImageIcon(ClassLoader.getSystemResource("icon/icon11.png"));
+        ImageIcon icon12 = new ImageIcon(ClassLoader.getSystemResource("icon/power-off.png"));
         Image image12 = icon12.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
         exit.setIcon(new ImageIcon(image12));
         exit.setMnemonic('x');
         exit.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
         exit.addActionListener(this);
-        mexit.add(exit);
-
+        muser.add(exit);
+        
+        JMenuItem profile = new JMenuItem("Profile    ");
+        profile.setFont(new Font("Monospaced", Font.PLAIN, 20));
+        profile.setBackground(Color.white);
+        ImageIcon icon15 = new ImageIcon(ClassLoader.getSystemResource("icon/resume.png"));
+        Image image15 = icon15.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT);
+        profile.setIcon(new ImageIcon(image15));
+        profile.setMnemonic('j');
+        profile.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_J, ActionEvent.CTRL_MASK));
+        profile.addActionListener(this);
+        muser.add(profile);
+        
         if(atype.equals("Admin")){
         mb.add(master);
         }else {
@@ -189,7 +214,8 @@ public class Project extends JFrame implements ActionListener {
         }
         
         mb.add(utility);
-        mb.add(mexit);
+        mb.add(Box.createHorizontalGlue());
+        mb.add(muser);
 
         setSize(1900, 1000);
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -234,6 +260,11 @@ public class Project extends JFrame implements ActionListener {
             }
         } else if (msg.equals("Exit    ")) {
             System.exit(0);
+        }else if(msg.equals("Logout    ")) {
+            setVisible(false);
+            new Login();
+        }else if(msg.equals("Profile    ")) {
+            new ViewInformation(meter);
         }
     }
 
