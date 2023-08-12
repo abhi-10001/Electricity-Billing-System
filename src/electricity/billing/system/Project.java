@@ -215,15 +215,23 @@ public class Project extends JFrame implements ActionListener {
         } else if (msg.equals("View Information    ")) {
             new ViewInformation(meter);
         } else if (msg.equals("Pay Bill    ")) {
-
+            new PayBill(meter);
         } else if (msg.equals("Bill Details    ")) {
-
+            new BillDetails(meter);
         } else if (msg.equals("Generate Bill    ")) {
-
+            new GenerateBill(meter);
         } else if (msg.equals("Notepad    ")) {
-
+            try{
+                Runtime.getRuntime().exec("notepad.exe");
+            }catch(Exception e){
+                e.printStackTrace();
+            }
         } else if (msg.equals("Calculator    ")) {
-
+            try{
+                Runtime.getRuntime().exec("calc.exe");
+            }catch(Exception e){
+                e.printStackTrace();
+            }
         } else if (msg.equals("Exit    ")) {
             System.exit(0);
         }
