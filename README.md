@@ -1,3 +1,6 @@
+![Screenshot from 2023-08-19 19-13-22](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/4032e2a3-9991-41a9-8604-151e2696eaf6)
+![Screenshot from 2023-08-19 19-13-11](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/ac89c132-4cca-4d93-a99f-92bc3c9933df)
+![Screenshot from 2023-08-19 19-12-59](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/920edf44-a827-4a69-8f48-d98d6232e132)
 ## Installation
 
 Step 1: clone the github repository.
@@ -52,3 +55,11 @@ If you stuck see my profile.
 
 
 ## Some Project Screenshots
+
+![Screenshot from 2023-08-19 19-09-53](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/853ca45a-0117-4f90-8264-7e806270ea12)
+![Screenshot from 2023-08-19 18-54-37](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/9dff5ebc-bd3c-4981-aa68-965f74648d34)
+![Screenshot from 2023-08-19 19-08-03](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/9547ac46-a625-417b-b51d-e22cbc968480)
+![Screenshot from 2023-08-19 19-07-35](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/37d0eed3-6789-4891-b6b0-3470b3b11441)
+![Screenshot from 2023-08-19 18-54-37](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/709c0fc6-c925-4932-bcbe-dfee194bf488)
+![Screenshot from 2023-08-19 18-54-17](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/c4c27d49-6e44-4403-b231-120ed67f551e)
+
