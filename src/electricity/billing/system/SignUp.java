@@ -22,12 +22,13 @@ public class SignUp extends JFrame implements ActionListener{
     JTextField name, username, meter;
     
     SignUp() {
+        super("SignUp Page");
         setLayout(null);
         getContentPane().setBackground(Color.WHITE);
         
         JPanel panel = new JPanel();
         panel.setBounds(25, 24, 653, 352);
-        panel.setBorder(new TitledBorder(new LineBorder(Color.cyan, 2 ), "Create-Account", TitledBorder.LEADING, TitledBorder.TOP, null, Color.CYAN));
+        panel.setBorder(new TitledBorder(new LineBorder(Color.black, 2 ), "Create-Account", TitledBorder.LEADING, TitledBorder.TOP, null, Color.black));
         panel.setBackground(Color.WHITE);
         panel.setLayout(null);
         panel.setForeground(new Color(34, 139, 34));

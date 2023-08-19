@@ -13,6 +13,7 @@ public class GenerateBill extends JFrame implements ActionListener{
     JTextArea area;
     
     GenerateBill(String meter){
+        super("Generate Bill");
         this.meter = meter;
         setLayout(new BorderLayout());
         

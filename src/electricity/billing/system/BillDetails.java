@@ -12,6 +12,7 @@ public class BillDetails extends JFrame implements ActionListener{
 
     String meter;
     BillDetails(String meter){
+        super("Bill Details");
         this.meter = meter;
         setLayout(null);
         getContentPane().setBackground(Color.WHITE);

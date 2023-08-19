@@ -26,6 +26,7 @@ public class Splash extends JFrame implements Runnable{
         t = new Thread(this);
         t.start();
         
+        setUndecorated(true);
         setSize(730, 550);
         setLocation(600, 150);
         setVisible(true);

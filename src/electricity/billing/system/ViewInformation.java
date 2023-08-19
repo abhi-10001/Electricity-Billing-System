@@ -70,7 +70,7 @@ public class ViewInformation extends JFrame implements ActionListener{
         add(lblstate);
         
         JLabel state = new JLabel("");
-        state.setBounds(450, 150, 200, 200);
+        state.setBounds(600, 150, 200, 200);
         state.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(state);
         
@@ -80,7 +80,7 @@ public class ViewInformation extends JFrame implements ActionListener{
         add(lblemail);
         
         JLabel email = new JLabel("");
-        email.setBounds(450, 50, 200, 200);
+        email.setBounds(600, 50, 200, 200);
         email.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(email);
         
@@ -90,7 +90,7 @@ public class ViewInformation extends JFrame implements ActionListener{
         add(lblphone);
         
         JLabel phone = new JLabel("");
-        phone.setBounds(450, 100, 200, 200);
+        phone.setBounds(600, 100, 200, 200);
         phone.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(phone);
         

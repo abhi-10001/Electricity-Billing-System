@@ -9,6 +9,7 @@ public class Project extends JFrame implements ActionListener {
 
     String atype, meter;
     Project(String atype, String meter) {
+        super("Dashboard");
         this.atype = atype;
         this.meter = meter;
         setLayout(null);

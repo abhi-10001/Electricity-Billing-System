@@ -20,7 +20,7 @@ public class CalculateBill extends JFrame implements ActionListener{
         
         getContentPane().setBackground(new Color(164, 227, 232));
         JLabel heading = new JLabel("Calculate Electricity Bill ");
-        heading.setBounds(280, 30, 300, 30);
+        heading.setBounds(240, 30, 400, 30);
         heading.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(heading);
         
