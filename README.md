@@ -52,13 +52,16 @@ If you stuck see my profile.
 
 
 ## Some Project Screenshots
+Login Page
 ![Screenshot from 2023-08-19 18-54-17](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/4eca6e3a-0b17-4914-ab0f-8f5c262c38a1)
+SignUp Page
 ![Screenshot from 2023-08-19 18-54-37](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/c45ca73f-7d27-49c1-a395-7ae349a928bd)
+Dashboard
 ![Screenshot from 2023-08-19 19-07-35](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/d13f89f1-5a23-46ec-82b1-3f9e29c89e22)
-
-![Screenshot from 2023-08-19 19-09-37](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/480f2669-2455-4641-a9bf-99fc2aaec352)
+Customer Details
 ![Screenshot from 2023-08-19 19-08-03](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/dbeaa6e1-fff9-46e9-8f22-cb5bf5c56bd2)
-![Screenshot from 2023-08-19 19-13-11](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/33c58c02-4b3c-4fff-acc2-08e43fd6bd67)
+![Screenshot from 2023-08-19 19-09-37](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/480f2669-2455-4641-a9bf-99fc2aaec352)
 ![Screenshot from 2023-08-19 19-09-53](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/8ad3a14d-0699-4de4-86ce-662843e06bbe)
+![Screenshot from 2023-08-19 19-13-11](https://github.com/abhi-10001/Electricity-Billing-System/assets/98804705/33c58c02-4b3c-4fff-acc2-08e43fd6bd67)
 
 
