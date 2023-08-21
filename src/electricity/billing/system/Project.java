@@ -204,7 +204,9 @@ public class Project extends JFrame implements ActionListener {
         profile.setMnemonic('j');
         profile.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_J, ActionEvent.CTRL_MASK));
         profile.addActionListener(this);
+        if(!atype.equals("Admin")){
         muser.add(profile);
+        }
         
         if(atype.equals("Admin")){
         mb.add(master);
