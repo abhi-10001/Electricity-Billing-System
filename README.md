@@ -1,3 +1,4 @@
+Implemented and managed a system which can generate bill, manage customer details, an admin panel and interactive GUI.
 ## Installation
 
 Step 1: clone the github repository.
